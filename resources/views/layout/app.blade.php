@@ -11,7 +11,7 @@
     <header>
      <a href="{{ route ('home') }}">Home</a>
      <a href="{{ route ('comics.index') }}">Prodotti</a>
-     <a href="#">Aggiungi Prodotto</a>
+     <a href="{{ route ('comics.create') }}">Aggiungi Prodotto</a>
     </header>
 
     <main>
