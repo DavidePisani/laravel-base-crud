@@ -13,7 +13,7 @@
         </div>
     @endif
 
-    <form action="{{ route('comics.update', ['comic' => $comics->id])}}" method="POST">
+    <form action="{{ route('comics.update', ['comic' => $comics->id])}}" method="post">
         @csrf
         @method('PUT')
 
